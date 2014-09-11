@@ -86,6 +86,8 @@
 		4551EA3219C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4316842AC700DAE96E /* EEXMLObjectTreeSchema.m */; };
 		4551EA3319C202BE0048FD31 /* EEXMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4916842AC700DAE96E /* EEXMLSerialization.m */; };
 		4551EA3419C202BE0048FD31 /* EEXMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4B16842AC700DAE96E /* EEXMLUtility.m */; };
+		4551EB0A19C20C370048FD31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4551EB0919C20C370048FD31 /* Foundation.framework */; };
+		4551EB0B19C20C3D0048FD31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E68C3316842A1400DAE96E /* Foundation.framework */; };
 		45E68C4D16842AC700DAE96E /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
 		45E68C4E16842AC700DAE96E /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
 		45E68C5016842AC700DAE96E /* EEXMLObjectTreeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4116842AC700DAE96E /* EEXMLObjectTreeConverter.m */; };
@@ -156,6 +158,7 @@
 		4551EA3B19C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4551EA3F19C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4551EA4119C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4551EB0919C20C370048FD31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45934D2D1684340D009C3D30 /* EonilXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EonilXML.h; sourceTree = "<group>"; };
 		45E68C1A16842A0700DAE96E /* libEonilXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E68C1D16842A0700DAE96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -186,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4551EB0A19C20C370048FD31 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4551EB0B19C20C3D0048FD31 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +319,7 @@
 		45E68C1C16842A0700DAE96E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4551EB0919C20C370048FD31 /* Foundation.framework */,
 				45E68C1D16842A0700DAE96E /* Foundation.framework */,
 				45E68C2E16842A1400DAE96E /* Cocoa.framework */,
 				45E68C3016842A1400DAE96E /* Other Frameworks */,
@@ -763,7 +769,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -787,7 +793,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Targets/iOS/Framework/Dynamic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SDKROOT = iphoneos;
@@ -815,7 +821,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -833,7 +839,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Targets/iOS/Framework/Dynamic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -862,7 +868,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -886,7 +891,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Targets/iOS/Framework/Static/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -919,7 +924,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -937,7 +941,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Targets/iOS/Framework/Static/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1383,6 +1387,7 @@
 				4551EA4519C205820048FD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E68C12168429F600DAE96E /* Build configuration list for PBXProject "EonilXML" */ = {
 			isa = XCConfigurationList;
