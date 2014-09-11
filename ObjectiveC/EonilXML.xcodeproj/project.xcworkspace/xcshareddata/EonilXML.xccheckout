@@ -12,22 +12,34 @@
 	<dict>
 		<key>120EA977BD48968EAB2368B0255C2CBB634BF08E</key>
 		<string>https://github.com/Eonil/Monolith.git</string>
+		<key>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</key>
+		<string>https://github.com/Eonil/XML.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Components/XML/EonilXML.xcodeproj</string>
+	<string>EonilXML.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>120EA977BD48968EAB2368B0255C2CBB634BF08E</key>
-		<string>../../../..</string>
+		<string>../../../Monolith</string>
+		<key>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Eonil/Monolith.git</string>
+	<string>https://github.com/Eonil/XML.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>120EA977BD48968EAB2368B0255C2CBB634BF08E</string>
+	<string>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8E3040724D598C3A74B4739B1124CF9E9D4EF1C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EonilXML</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
