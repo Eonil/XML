@@ -6,7 +6,86 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4551EA4219C205820048FD31 /* EonilXML - All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4551EA4319C205820048FD31 /* Build configuration list for PBXAggregateTarget "EonilXML - All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4551EA4719C205880048FD31 /* PBXTargetDependency */,
+				4551EA4919C205880048FD31 /* PBXTargetDependency */,
+				4551EA4B19C205880048FD31 /* PBXTargetDependency */,
+				4551EA4D19C205880048FD31 /* PBXTargetDependency */,
+				4551EA4F19C205880048FD31 /* PBXTargetDependency */,
+				4551EA5119C205880048FD31 /* PBXTargetDependency */,
+			);
+			name = "EonilXML - All";
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		4551E9F919C2029C0048FD31 /* EonilXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45934D2D1684340D009C3D30 /* EonilXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551E9FA19C2029C0048FD31 /* EEXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C3E16842AC700DAE96E /* EEXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551E9FB19C2029C0048FD31 /* EEXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4416842AC700DAE96E /* EEXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551E9FC19C2029C0048FD31 /* EEXMLReaderObjectStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4616842AC700DAE96E /* EEXMLReaderObjectStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551E9FD19C2029C0048FD31 /* EEXMLObjectTreeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4016842AC700DAE96E /* EEXMLObjectTreeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551E9FE19C2029C0048FD31 /* EEXMLObjectTreeSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4216842AC700DAE96E /* EEXMLObjectTreeSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551E9FF19C2029C0048FD31 /* EEXMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4816842AC700DAE96E /* EEXMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0019C2029C0048FD31 /* EEXMLUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4A16842AC700DAE96E /* EEXMLUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0119C2029C0048FD31 /* EonilXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45934D2D1684340D009C3D30 /* EonilXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0219C2029C0048FD31 /* EEXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C3E16842AC700DAE96E /* EEXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0319C2029C0048FD31 /* EEXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4416842AC700DAE96E /* EEXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0419C2029C0048FD31 /* EEXMLReaderObjectStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4616842AC700DAE96E /* EEXMLReaderObjectStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0519C2029C0048FD31 /* EEXMLObjectTreeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4016842AC700DAE96E /* EEXMLObjectTreeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0619C2029C0048FD31 /* EEXMLObjectTreeSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4216842AC700DAE96E /* EEXMLObjectTreeSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0719C2029C0048FD31 /* EEXMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4816842AC700DAE96E /* EEXMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0819C2029C0048FD31 /* EEXMLUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4A16842AC700DAE96E /* EEXMLUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0919C2029C0048FD31 /* EonilXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45934D2D1684340D009C3D30 /* EonilXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0A19C2029C0048FD31 /* EEXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C3E16842AC700DAE96E /* EEXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0B19C2029C0048FD31 /* EEXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4416842AC700DAE96E /* EEXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0C19C2029C0048FD31 /* EEXMLReaderObjectStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4616842AC700DAE96E /* EEXMLReaderObjectStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0D19C2029C0048FD31 /* EEXMLObjectTreeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4016842AC700DAE96E /* EEXMLObjectTreeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0E19C2029C0048FD31 /* EEXMLObjectTreeSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4216842AC700DAE96E /* EEXMLObjectTreeSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA0F19C2029C0048FD31 /* EEXMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4816842AC700DAE96E /* EEXMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1019C2029C0048FD31 /* EEXMLUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4A16842AC700DAE96E /* EEXMLUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1119C2029D0048FD31 /* EonilXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 45934D2D1684340D009C3D30 /* EonilXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1219C2029D0048FD31 /* EEXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C3E16842AC700DAE96E /* EEXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1319C2029D0048FD31 /* EEXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4416842AC700DAE96E /* EEXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1419C2029D0048FD31 /* EEXMLReaderObjectStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4616842AC700DAE96E /* EEXMLReaderObjectStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1519C2029D0048FD31 /* EEXMLObjectTreeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4016842AC700DAE96E /* EEXMLObjectTreeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1619C2029D0048FD31 /* EEXMLObjectTreeSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4216842AC700DAE96E /* EEXMLObjectTreeSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1719C2029D0048FD31 /* EEXMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4816842AC700DAE96E /* EEXMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1819C2029D0048FD31 /* EEXMLUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E68C4A16842AC700DAE96E /* EEXMLUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4551EA1919C202BE0048FD31 /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
+		4551EA1A19C202BE0048FD31 /* EEXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4516842AC700DAE96E /* EEXMLReader.m */; };
+		4551EA1B19C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4716842AC700DAE96E /* EEXMLReaderObjectStack.m */; };
+		4551EA1C19C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4116842AC700DAE96E /* EEXMLObjectTreeConverter.m */; };
+		4551EA1D19C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4316842AC700DAE96E /* EEXMLObjectTreeSchema.m */; };
+		4551EA1E19C202BE0048FD31 /* EEXMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4916842AC700DAE96E /* EEXMLSerialization.m */; };
+		4551EA1F19C202BE0048FD31 /* EEXMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4B16842AC700DAE96E /* EEXMLUtility.m */; };
+		4551EA2019C202BE0048FD31 /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
+		4551EA2119C202BE0048FD31 /* EEXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4516842AC700DAE96E /* EEXMLReader.m */; };
+		4551EA2219C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4716842AC700DAE96E /* EEXMLReaderObjectStack.m */; };
+		4551EA2319C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4116842AC700DAE96E /* EEXMLObjectTreeConverter.m */; };
+		4551EA2419C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4316842AC700DAE96E /* EEXMLObjectTreeSchema.m */; };
+		4551EA2519C202BE0048FD31 /* EEXMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4916842AC700DAE96E /* EEXMLSerialization.m */; };
+		4551EA2619C202BE0048FD31 /* EEXMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4B16842AC700DAE96E /* EEXMLUtility.m */; };
+		4551EA2719C202BE0048FD31 /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
+		4551EA2819C202BE0048FD31 /* EEXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4516842AC700DAE96E /* EEXMLReader.m */; };
+		4551EA2919C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4716842AC700DAE96E /* EEXMLReaderObjectStack.m */; };
+		4551EA2A19C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4116842AC700DAE96E /* EEXMLObjectTreeConverter.m */; };
+		4551EA2B19C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4316842AC700DAE96E /* EEXMLObjectTreeSchema.m */; };
+		4551EA2C19C202BE0048FD31 /* EEXMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4916842AC700DAE96E /* EEXMLSerialization.m */; };
+		4551EA2D19C202BE0048FD31 /* EEXMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4B16842AC700DAE96E /* EEXMLUtility.m */; };
+		4551EA2E19C202BE0048FD31 /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
+		4551EA2F19C202BE0048FD31 /* EEXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4516842AC700DAE96E /* EEXMLReader.m */; };
+		4551EA3019C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4716842AC700DAE96E /* EEXMLReaderObjectStack.m */; };
+		4551EA3119C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4116842AC700DAE96E /* EEXMLObjectTreeConverter.m */; };
+		4551EA3219C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4316842AC700DAE96E /* EEXMLObjectTreeSchema.m */; };
+		4551EA3319C202BE0048FD31 /* EEXMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4916842AC700DAE96E /* EEXMLSerialization.m */; };
+		4551EA3419C202BE0048FD31 /* EEXMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4B16842AC700DAE96E /* EEXMLUtility.m */; };
 		45E68C4D16842AC700DAE96E /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
 		45E68C4E16842AC700DAE96E /* EEXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C3F16842AC700DAE96E /* EEXMLNode.m */; };
 		45E68C5016842AC700DAE96E /* EEXMLObjectTreeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4116842AC700DAE96E /* EEXMLObjectTreeConverter.m */; };
@@ -23,19 +102,68 @@
 		45E68C6016842AC700DAE96E /* EEXMLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E68C4B16842AC700DAE96E /* EEXMLUtility.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4551EA4619C205880048FD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E68C0F168429F600DAE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E68C1916842A0700DAE96E;
+			remoteInfo = "EonilXML - iOS - Static Library";
+		};
+		4551EA4819C205880048FD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E68C0F168429F600DAE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E68C2C16842A1400DAE96E;
+			remoteInfo = "EonilXML - OSX - Static Library";
+		};
+		4551EA4A19C205880048FD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E68C0F168429F600DAE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551E99F19C201F90048FD31;
+			remoteInfo = "EonilXML - iOS - Static Framework";
+		};
+		4551EA4C19C205880048FD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E68C0F168429F600DAE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551E9D519C202220048FD31;
+			remoteInfo = "EonilXML - OSX - Static Framework";
+		};
+		4551EA4E19C205880048FD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E68C0F168429F600DAE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551E98419C201EB0048FD31;
+			remoteInfo = "EonilXML - iOS - Dynamic Framework";
+		};
+		4551EA5019C205880048FD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E68C0F168429F600DAE96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551E9BA19C202180048FD31;
+			remoteInfo = "EonilXML - OSX - Dynamic Framework";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		450A2B6819C0B660009D55B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		450A2B6919C0B660009D55B5 /* XML - iOS - Static Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XML - iOS - Static Framework.h"; sourceTree = "<group>"; };
+		4551E98519C201EB0048FD31 /* EonilXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4551E9A019C201F90048FD31 /* EonilXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4551E9BB19C202180048FD31 /* EonilXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4551E9D619C202220048FD31 /* EonilXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4551EA3919C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4551EA3B19C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4551EA3F19C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4551EA4119C204E40048FD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45934D2D1684340D009C3D30 /* EonilXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EonilXML.h; sourceTree = "<group>"; };
 		45E68C1A16842A0700DAE96E /* libEonilXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E68C1D16842A0700DAE96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		45E68C2116842A0700DAE96E /* iOS Static Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Static Library-Prefix.pch"; sourceTree = "<group>"; };
 		45E68C2D16842A1400DAE96E /* libEonilXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E68C2E16842A1400DAE96E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45E68C3116842A1400DAE96E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		45E68C3216842A1400DAE96E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		45E68C3316842A1400DAE96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		45E68C3616842A1400DAE96E /* OS X Static Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OS X Static Library-Prefix.pch"; sourceTree = "<group>"; };
 		45E68C3E16842AC700DAE96E /* EEXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEXMLNode.h; sourceTree = "<group>"; };
 		45E68C3F16842AC700DAE96E /* EEXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEXMLNode.m; sourceTree = "<group>"; };
 		45E68C4016842AC700DAE96E /* EEXMLObjectTreeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEXMLObjectTreeConverter.h; sourceTree = "<group>"; };
@@ -53,31 +181,118 @@
 		45E68C8416842EA500DAE96E /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		4551E98119C201EB0048FD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E99C19C201F90048FD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9B719C202180048FD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9D219C202220048FD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		450A2B6619C0B660009D55B5 /* XML - iOS - Static Framework */ = {
+		4551EA3519C204E40048FD31 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				450A2B6919C0B660009D55B5 /* XML - iOS - Static Framework.h */,
-				450A2B6719C0B660009D55B5 /* Supporting Files */,
+				4551EA3619C204E40048FD31 /* iOS */,
+				4551EA3C19C204E40048FD31 /* OSX */,
 			);
-			path = "XML - iOS - Static Framework";
+			path = Targets;
 			sourceTree = "<group>";
 		};
-		450A2B6719C0B660009D55B5 /* Supporting Files */ = {
+		4551EA3619C204E40048FD31 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				450A2B6819C0B660009D55B5 /* Info.plist */,
+				4551EA3719C204E40048FD31 /* Framework */,
 			);
-			name = "Supporting Files";
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		4551EA3719C204E40048FD31 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA3819C204E40048FD31 /* Dynamic */,
+				4551EA3A19C204E40048FD31 /* Static */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		4551EA3819C204E40048FD31 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA3919C204E40048FD31 /* Info.plist */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		4551EA3A19C204E40048FD31 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA3B19C204E40048FD31 /* Info.plist */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		4551EA3C19C204E40048FD31 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA3D19C204E40048FD31 /* Framework */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		4551EA3D19C204E40048FD31 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA3E19C204E40048FD31 /* Dynamic */,
+				4551EA4019C204E40048FD31 /* Static */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		4551EA3E19C204E40048FD31 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA3F19C204E40048FD31 /* Info.plist */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		4551EA4019C204E40048FD31 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				4551EA4119C204E40048FD31 /* Info.plist */,
+			);
+			path = Static;
 			sourceTree = "<group>";
 		};
 		45E68C0D168429F600DAE96E = {
 			isa = PBXGroup;
 			children = (
-				45E68C3D16842A3400DAE96E /* Source */,
-				45E68C1F16842A0700DAE96E /* iOS Static Library */,
-				45E68C3416842A1400DAE96E /* OS X Static Library */,
-				450A2B6619C0B660009D55B5 /* XML - iOS - Static Framework */,
+				45E68C3D16842A3400DAE96E /* Sources */,
+				4551EA3519C204E40048FD31 /* Targets */,
 				45E68C1C16842A0700DAE96E /* Frameworks */,
 				45E68C1B16842A0700DAE96E /* Products */,
 			);
@@ -88,6 +303,10 @@
 			children = (
 				45E68C1A16842A0700DAE96E /* libEonilXML.a */,
 				45E68C2D16842A1400DAE96E /* libEonilXML.a */,
+				4551E98519C201EB0048FD31 /* EonilXML.framework */,
+				4551E9A019C201F90048FD31 /* EonilXML.framework */,
+				4551E9BB19C202180048FD31 /* EonilXML.framework */,
+				4551E9D619C202220048FD31 /* EonilXML.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,22 +321,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		45E68C1F16842A0700DAE96E /* iOS Static Library */ = {
-			isa = PBXGroup;
-			children = (
-				45E68C2016842A0700DAE96E /* Supporting Files */,
-			);
-			path = "iOS Static Library";
-			sourceTree = "<group>";
-		};
-		45E68C2016842A0700DAE96E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				45E68C2116842A0700DAE96E /* iOS Static Library-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		45E68C3016842A1400DAE96E /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,23 +331,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		45E68C3416842A1400DAE96E /* OS X Static Library */ = {
-			isa = PBXGroup;
-			children = (
-				45E68C3516842A1400DAE96E /* Supporting Files */,
-			);
-			path = "OS X Static Library";
-			sourceTree = "<group>";
-		};
-		45E68C3516842A1400DAE96E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				45E68C3616842A1400DAE96E /* OS X Static Library-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		45E68C3D16842A3400DAE96E /* Source */ = {
+		45E68C3D16842A3400DAE96E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				45E68C8416842EA500DAE96E /* Prefix.pch */,
@@ -153,7 +340,7 @@
 				45E68C6116842ADD00DAE96E /* object converter (node-tree <-> object-tree conversion) */,
 				45E68C6216842AFA00DAE96E /* (unimplemented) SAX parser <-> object-tree conversion */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		45E68C6116842ADD00DAE96E /* object converter (node-tree <-> object-tree conversion) */ = {
@@ -193,7 +380,142 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4551E98219C201EB0048FD31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA0A19C2029C0048FD31 /* EEXMLNode.h in Headers */,
+				4551EA0B19C2029C0048FD31 /* EEXMLReader.h in Headers */,
+				4551EA0D19C2029C0048FD31 /* EEXMLObjectTreeConverter.h in Headers */,
+				4551EA0F19C2029C0048FD31 /* EEXMLSerialization.h in Headers */,
+				4551EA0919C2029C0048FD31 /* EonilXML.h in Headers */,
+				4551EA0E19C2029C0048FD31 /* EEXMLObjectTreeSchema.h in Headers */,
+				4551EA0C19C2029C0048FD31 /* EEXMLReaderObjectStack.h in Headers */,
+				4551EA1019C2029C0048FD31 /* EEXMLUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E99D19C201F90048FD31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551E9FA19C2029C0048FD31 /* EEXMLNode.h in Headers */,
+				4551E9FB19C2029C0048FD31 /* EEXMLReader.h in Headers */,
+				4551E9FD19C2029C0048FD31 /* EEXMLObjectTreeConverter.h in Headers */,
+				4551E9FF19C2029C0048FD31 /* EEXMLSerialization.h in Headers */,
+				4551E9F919C2029C0048FD31 /* EonilXML.h in Headers */,
+				4551E9FE19C2029C0048FD31 /* EEXMLObjectTreeSchema.h in Headers */,
+				4551E9FC19C2029C0048FD31 /* EEXMLReaderObjectStack.h in Headers */,
+				4551EA0019C2029C0048FD31 /* EEXMLUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9B819C202180048FD31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA1219C2029D0048FD31 /* EEXMLNode.h in Headers */,
+				4551EA1319C2029D0048FD31 /* EEXMLReader.h in Headers */,
+				4551EA1519C2029D0048FD31 /* EEXMLObjectTreeConverter.h in Headers */,
+				4551EA1719C2029D0048FD31 /* EEXMLSerialization.h in Headers */,
+				4551EA1119C2029D0048FD31 /* EonilXML.h in Headers */,
+				4551EA1619C2029D0048FD31 /* EEXMLObjectTreeSchema.h in Headers */,
+				4551EA1419C2029D0048FD31 /* EEXMLReaderObjectStack.h in Headers */,
+				4551EA1819C2029D0048FD31 /* EEXMLUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9D319C202220048FD31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA0219C2029C0048FD31 /* EEXMLNode.h in Headers */,
+				4551EA0319C2029C0048FD31 /* EEXMLReader.h in Headers */,
+				4551EA0519C2029C0048FD31 /* EEXMLObjectTreeConverter.h in Headers */,
+				4551EA0719C2029C0048FD31 /* EEXMLSerialization.h in Headers */,
+				4551EA0119C2029C0048FD31 /* EonilXML.h in Headers */,
+				4551EA0619C2029C0048FD31 /* EEXMLObjectTreeSchema.h in Headers */,
+				4551EA0419C2029C0048FD31 /* EEXMLReaderObjectStack.h in Headers */,
+				4551EA0819C2029C0048FD31 /* EEXMLUtility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		4551E98419C201EB0048FD31 /* EonilXML - iOS - Dynamic Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4551E99919C201EB0048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - iOS - Dynamic Framework" */;
+			buildPhases = (
+				4551E98019C201EB0048FD31 /* Sources */,
+				4551E98119C201EB0048FD31 /* Frameworks */,
+				4551E98219C201EB0048FD31 /* Headers */,
+				4551E98319C201EB0048FD31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EonilXML - iOS - Dynamic Framework";
+			productName = "EonilXML - iOS - Dynamic Framework";
+			productReference = 4551E98519C201EB0048FD31 /* EonilXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4551E99F19C201F90048FD31 /* EonilXML - iOS - Static Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4551E9B019C201F90048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - iOS - Static Framework" */;
+			buildPhases = (
+				4551E99B19C201F90048FD31 /* Sources */,
+				4551E99C19C201F90048FD31 /* Frameworks */,
+				4551E99D19C201F90048FD31 /* Headers */,
+				4551E99E19C201F90048FD31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EonilXML - iOS - Static Framework";
+			productName = "EonilXML - iOS - Static Framework";
+			productReference = 4551E9A019C201F90048FD31 /* EonilXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4551E9BA19C202180048FD31 /* EonilXML - OSX - Dynamic Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4551E9CB19C202180048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - OSX - Dynamic Framework" */;
+			buildPhases = (
+				4551E9B619C202180048FD31 /* Sources */,
+				4551E9B719C202180048FD31 /* Frameworks */,
+				4551E9B819C202180048FD31 /* Headers */,
+				4551E9B919C202180048FD31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EonilXML - OSX - Dynamic Framework";
+			productName = "EonilXML - OSX - Dynamic Framework";
+			productReference = 4551E9BB19C202180048FD31 /* EonilXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4551E9D519C202220048FD31 /* EonilXML - OSX - Static Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4551E9E619C202220048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - OSX - Static Framework" */;
+			buildPhases = (
+				4551E9D119C202220048FD31 /* Sources */,
+				4551E9D219C202220048FD31 /* Frameworks */,
+				4551E9D319C202220048FD31 /* Headers */,
+				4551E9D419C202220048FD31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EonilXML - OSX - Static Framework";
+			productName = "EonilXML - OSX - Static Framework";
+			productReference = 4551E9D619C202220048FD31 /* EonilXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		45E68C1916842A0700DAE96E /* EonilXML - iOS - Static Library */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45E68C2616842A0700DAE96E /* Build configuration list for PBXNativeTarget "EonilXML - iOS - Static Library" */;
@@ -231,6 +553,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					4551E98419C201EB0048FD31 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4551E99F19C201F90048FD31 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4551E9BA19C202180048FD31 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4551E9D519C202220048FD31 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4551EA4219C205820048FD31 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
 			};
 			buildConfigurationList = 45E68C12168429F600DAE96E /* Build configuration list for PBXProject "EonilXML" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -246,11 +585,103 @@
 			targets = (
 				45E68C1916842A0700DAE96E /* EonilXML - iOS - Static Library */,
 				45E68C2C16842A1400DAE96E /* EonilXML - OSX - Static Library */,
+				4551E99F19C201F90048FD31 /* EonilXML - iOS - Static Framework */,
+				4551E9D519C202220048FD31 /* EonilXML - OSX - Static Framework */,
+				4551E98419C201EB0048FD31 /* EonilXML - iOS - Dynamic Framework */,
+				4551E9BA19C202180048FD31 /* EonilXML - OSX - Dynamic Framework */,
+				4551EA4219C205820048FD31 /* EonilXML - All */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4551E98319C201EB0048FD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E99E19C201F90048FD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9B919C202180048FD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9D419C202220048FD31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4551E98019C201EB0048FD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA2819C202BE0048FD31 /* EEXMLReader.m in Sources */,
+				4551EA2B19C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */,
+				4551EA2919C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */,
+				4551EA2719C202BE0048FD31 /* EEXMLNode.m in Sources */,
+				4551EA2D19C202BE0048FD31 /* EEXMLUtility.m in Sources */,
+				4551EA2C19C202BE0048FD31 /* EEXMLSerialization.m in Sources */,
+				4551EA2A19C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E99B19C201F90048FD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA1A19C202BE0048FD31 /* EEXMLReader.m in Sources */,
+				4551EA1D19C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */,
+				4551EA1B19C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */,
+				4551EA1919C202BE0048FD31 /* EEXMLNode.m in Sources */,
+				4551EA1F19C202BE0048FD31 /* EEXMLUtility.m in Sources */,
+				4551EA1E19C202BE0048FD31 /* EEXMLSerialization.m in Sources */,
+				4551EA1C19C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9B619C202180048FD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA2F19C202BE0048FD31 /* EEXMLReader.m in Sources */,
+				4551EA3219C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */,
+				4551EA3019C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */,
+				4551EA2E19C202BE0048FD31 /* EEXMLNode.m in Sources */,
+				4551EA3419C202BE0048FD31 /* EEXMLUtility.m in Sources */,
+				4551EA3319C202BE0048FD31 /* EEXMLSerialization.m in Sources */,
+				4551EA3119C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551E9D119C202220048FD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4551EA2119C202BE0048FD31 /* EEXMLReader.m in Sources */,
+				4551EA2419C202BE0048FD31 /* EEXMLObjectTreeSchema.m in Sources */,
+				4551EA2219C202BE0048FD31 /* EEXMLReaderObjectStack.m in Sources */,
+				4551EA2019C202BE0048FD31 /* EEXMLNode.m in Sources */,
+				4551EA2619C202BE0048FD31 /* EEXMLUtility.m in Sources */,
+				4551EA2519C202BE0048FD31 /* EEXMLSerialization.m in Sources */,
+				4551EA2319C202BE0048FD31 /* EEXMLObjectTreeConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45E68C1616842A0700DAE96E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,10 +712,475 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4551EA4719C205880048FD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E68C1916842A0700DAE96E /* EonilXML - iOS - Static Library */;
+			targetProxy = 4551EA4619C205880048FD31 /* PBXContainerItemProxy */;
+		};
+		4551EA4919C205880048FD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E68C2C16842A1400DAE96E /* EonilXML - OSX - Static Library */;
+			targetProxy = 4551EA4819C205880048FD31 /* PBXContainerItemProxy */;
+		};
+		4551EA4B19C205880048FD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4551E99F19C201F90048FD31 /* EonilXML - iOS - Static Framework */;
+			targetProxy = 4551EA4A19C205880048FD31 /* PBXContainerItemProxy */;
+		};
+		4551EA4D19C205880048FD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4551E9D519C202220048FD31 /* EonilXML - OSX - Static Framework */;
+			targetProxy = 4551EA4C19C205880048FD31 /* PBXContainerItemProxy */;
+		};
+		4551EA4F19C205880048FD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4551E98419C201EB0048FD31 /* EonilXML - iOS - Dynamic Framework */;
+			targetProxy = 4551EA4E19C205880048FD31 /* PBXContainerItemProxy */;
+		};
+		4551EA5119C205880048FD31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4551E9BA19C202180048FD31 /* EonilXML - OSX - Dynamic Framework */;
+			targetProxy = 4551EA5019C205880048FD31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4551E99519C201EB0048FD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/iOS/Framework/Dynamic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4551E99619C201EB0048FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/iOS/Framework/Dynamic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4551E9B119C201F90048FD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/iOS/Framework/Static/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4551E9B219C201F90048FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/iOS/Framework/Static/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4551E9CC19C202180048FD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/OSX/Framework/Dynamic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4551E9CD19C202180048FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/OSX/Framework/Dynamic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4551E9E719C202220048FD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/OSX/Framework/Static/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4551E9E819C202220048FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Targets/OSX/Framework/Static/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4551EA4419C205820048FD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4551EA4519C205820048FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		45E68C14168429F600DAE96E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -299,6 +1195,8 @@
 		45E68C15168429F600DAE96E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Sources/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -328,8 +1226,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Static Library/iOS Static Library-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -364,8 +1260,6 @@
 					"\"$(SRCROOT)/iOS Static Library\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Static Library/iOS Static Library-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -398,8 +1292,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OS X Static Library/OS X Static Library-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -435,8 +1327,6 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OS X Static Library/OS X Static Library-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -450,6 +1340,50 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4551E99919C201EB0048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - iOS - Dynamic Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551E99519C201EB0048FD31 /* Debug */,
+				4551E99619C201EB0048FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4551E9B019C201F90048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - iOS - Static Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551E9B119C201F90048FD31 /* Debug */,
+				4551E9B219C201F90048FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4551E9CB19C202180048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - OSX - Dynamic Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551E9CC19C202180048FD31 /* Debug */,
+				4551E9CD19C202180048FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4551E9E619C202220048FD31 /* Build configuration list for PBXNativeTarget "EonilXML - OSX - Static Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551E9E719C202220048FD31 /* Debug */,
+				4551E9E819C202220048FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4551EA4319C205820048FD31 /* Build configuration list for PBXAggregateTarget "EonilXML - All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551EA4419C205820048FD31 /* Debug */,
+				4551EA4519C205820048FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		45E68C12168429F600DAE96E /* Build configuration list for PBXProject "EonilXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
