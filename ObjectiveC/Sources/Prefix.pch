@@ -7,18 +7,10 @@
 
 
 
-
-
-
-/*!
- @todo
- Temporary placeholder.
- Implement these macros.
- */
-
-#define	UNIVERSE_DEBUG_ASSERT
-#define	UNIVERSE_DEBUG_ASSERT_OBJECT_TYPE(a,b)
-
+#define	EEXML_DEBUG_ASSERT(cond)							{ if ((cond) == NO) { NSLog(@"[EEXML] assertion failure!"); abort(); } }
+#define	EEXML_DEBUG_ASSERT_OBJECT_TYPE(obj,type)			EEXML_DEBUG_ASSERT([obj isKindOfClass:[type class]])
+#define	EEXML_DEBUG_ASSERT_OBJECT_TYPE_OR_NIL(obj,type)		EEXML_DEBUG_ASSERT([obj isKindOfClass:[type class]] || obj == nil)
+#define	EEXML_DEBUG_ASSERT_PROTOCOL_CONFORMANCE(obj,pro)	EEXML_DEBUG_ASSERT([(id)(obj) conformsToProtocol:@protocol(pro)])
 
 
 

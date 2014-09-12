@@ -25,7 +25,7 @@
 }
 - (void)pushObject:(id)object
 {
-	UNIVERSE_DEBUG_ASSERT([object isKindOfClass:[NSNull class]] == NO);		//	You can't push NSNull into here.
+	EEXML_DEBUG_ASSERT([object isKindOfClass:[NSNull class]] == NO);		//	You can't push NSNull into here.
 	
 	////
 	

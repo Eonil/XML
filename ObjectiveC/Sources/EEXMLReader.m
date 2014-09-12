@@ -37,10 +37,10 @@
 //}
 - (EEXMLElement *)XMLElementByReadingData:(NSData *)data
 {	
-	UNIVERSE_DEBUG_ASSERT_OBJECT_TYPE(data, NSData);
+	EEXML_DEBUG_ASSERT_OBJECT_TYPE(data, NSData);
 	
-	UNIVERSE_DEBUG_ASSERT(self->parser == nil);		//	You can't issue parse method while another parsing is on-going.
-	UNIVERSE_DEBUG_ASSERT(self->elestack == nil);	//	There's serious logic bug.
+	EEXML_DEBUG_ASSERT(self->parser == nil);		//	You can't issue parse method while another parsing is on-going.
+	EEXML_DEBUG_ASSERT(self->elestack == nil);	//	There's serious logic bug.
 	
 	self->elestack		=	[[EEXMLReaderObjectStack alloc] init];
 	self->parser		=	[[NSXMLParser alloc] initWithData:data];
